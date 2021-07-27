@@ -5,7 +5,7 @@ using Nop.Plugin.Misc.ExtendedRewardPointsProgram.Domain;
 namespace Nop.Plugin.Misc.ExtendedRewardPointsProgram.Data
 {
     [SkipMigrationOnUpdate]
-    [NopMigration("2020/02/03 09:30:17:6455422", "Misc.ExtendedRewardPointsProgram base schema")]
+    [NopMigration("2021/07/16 09:30:17:6455466", "Misc.ExtendedRewardPointsProgram base schema")]
     public class SchemaMigration : AutoReversingMigration
     {
         protected IMigrationManager _migrationManager;
